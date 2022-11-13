@@ -1,0 +1,11 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="Apache 2.0"
+
+[[mods]]
+modId="fastscroll"
+version="${file.jarVersion}"
+displayName="Fast Scrolling"
+authors="Snownee"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/fast-scroll"
+description="Let you scroll faster when holding CTRL"
