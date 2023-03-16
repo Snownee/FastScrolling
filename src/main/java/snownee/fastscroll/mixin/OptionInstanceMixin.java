@@ -22,7 +22,7 @@ public class OptionInstanceMixin {
 		if (Minecraft.getInstance().screen instanceof MouseSettingsScreen) {
 			return;
 		}
-		if (this == (Object) Minecraft.getInstance().options.mouseWheelSensitivity() && Screen.hasControlDown()) {
+		if (Minecraft.getInstance().options != null && this == (Object) Minecraft.getInstance().options.mouseWheelSensitivity() && Screen.hasControlDown()) {
 			ci.setReturnValue((Double) value * 4);
 		}
 	}
